@@ -1,1 +1,2 @@
-#!/bin/bashwk NR==3 iacta
+#!/bin/bash
+awk NR==3 iacta
