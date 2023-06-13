@@ -1,2 +1,2 @@
 #!/bin/bash
-cat -c 1 | paste -s -d
+awk '{ printf "%s", substr($0, 1, 1) } END { printf "\n" }' "${@: -1}"
